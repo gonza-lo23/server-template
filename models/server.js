@@ -1,11 +1,9 @@
 const express = require('express');
 const cors = require('cors');
-const { request } = require('express');
-const { response } = require('express');
-const { Router } = require('express');
 
 
 class Server {  
+    
     constructor() {
         this.app = express();
         this.port = process.env.PORT;
